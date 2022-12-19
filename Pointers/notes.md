@@ -19,6 +19,11 @@ A. Basics
 
                 *p
 
+        A.4 referencing - a as a reference or an alias for x, a will just point to the same the address as of x it won't take any space, changes made to a will be reflected in x and vice versa.
+        Refernce always requires declaration at definition and once assigned it cannot be re-assigned
+
+                int &a = x
+
 B. Dynamic Allocation
         All the initialized variable are stored in stack memory not in heap aka static allocation, it happens at compile time  for example
 
